@@ -17,7 +17,7 @@ Please check the subfolders for detailed build steps.
 > Nekbone solves a standard Poisson equation using a conjugate gradient iteration with a simple or spectral element multigrid preconditioner on a block or linear geometry. It exposes the principal computational kernel to reveal the essential elements of the algorithmic-architectural coupling that is pertinent to Nek5000.
 > Original repository: https://github.com/Nek5000/Nekbone
 
-Nekbone-mp is an implementation of mixed-precision Nekbone, for the case w and w/o preconditioner.
+[Nekbone-mp](https://github.com/yanxchen/enabling-mixed-precision/tree/main/Nekbone-mp) is an implementation of mixed-precision Nekbone, for the case w and w/o preconditioner.
 
 ### Mixed-precision Neko
 > Neko is a portable framework for high-order spectral element flow simulations. Written in modern Fortran, Neko adopts an object-oriented approach, allowing multi-tier abstractions of the solver stack and facilitating various hardware backends ranging from general-purpose processors, CUDA and HIP enabled accelerators to SX-Aurora vector processors. Neko has its roots in the spectral element code Nek5000 from UChicago/ANL, from where many of the namings, code structure and numerical methods are adopted.
