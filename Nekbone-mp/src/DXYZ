@@ -1,0 +1,6 @@
+C
+C     Elemental derivative operators
+C
+      real*4 dxm1_f, dxtm1_f
+      common /dxyz/ dxm1(lx1,lx1),  dxtm1(lx1,lx1)
+      common /dxyz_f/ dxm1_f(lx1,lx1),  dxtm1_f(lx1,lx1)
