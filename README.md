@@ -23,7 +23,7 @@ Please check the subfolders for detailed build steps.
 > Neko is a portable framework for high-order spectral element flow simulations. Written in modern Fortran, Neko adopts an object-oriented approach, allowing multi-tier abstractions of the solver stack and facilitating various hardware backends ranging from general-purpose processors, CUDA and HIP enabled accelerators to SX-Aurora vector processors. Neko has its roots in the spectral element code Nek5000 from UChicago/ANL, from where many of the namings, code structure and numerical methods are adopted.
 > Original repository: https://github.com/ExtremeFLOW/neko
 
-Neko-mp is an implementation of mixed-precision Neko, with the Poission equation problem as example.
+[Neko-mp](https://github.com/yanxchen/enabling-mixed-precision/tree/main/Neko-mp) is an implementation of mixed-precision Neko, with the Poission equation problem as example.
 
 ## Results
 
