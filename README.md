@@ -53,3 +53,23 @@ A quick and easy approch is to use SLURM script:
 
 srun ./nekbone
 ```
+When the task is complete, energy consumption can be obtained with `eacct`: `eacct -j <job_id>`.
+
+## How to cite
+Our paper: [Enabling mixed-precision with the help of tools: A Nekbone case study](https://link.springer.com/chapter/10.1007/978-3-031-85697-6_3)
+
+Cite:
+
+Chen, Y., Castro, P.d.O., Bientinesi, P., Iakymchuk, R. (2025). Enabling Mixed-Precision with the Help of Tools: A Nekbone Case Study. In: Wyrzykowski, R., Dongarra, J., Deelman, E., Karczewski, K. (eds) Parallel Processing and Applied Mathematics. PPAM 2024. Lecture Notes in Computer Science, vol 15579. Springer, Cham. https://doi.org/10.1007/978-3-031-85697-6_3
+
+BibTeX:
+```plain
+@inproceedings{chen2024enabling,
+  title={Enabling mixed-precision with the help of tools: A Nekbone case study},
+  author={Chen, Yanxiang and Castro, Pablo de Oliveira and Bientinesi, Paolo and Iakymchuk, Roman},
+  booktitle={International Conference on Parallel Processing and Applied Mathematics},
+  pages={34--50},
+  year={2024},
+  organization={Springer}
+}
+```
