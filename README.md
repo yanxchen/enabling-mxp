@@ -56,20 +56,38 @@ srun ./nekbone
 When the task is complete, energy consumption can be obtained with `eacct`: `eacct -j <job_id>`.
 
 ## How to cite
-Our paper: [Enabling mixed-precision with the help of tools: A Nekbone case study](https://link.springer.com/chapter/10.1007/978-3-031-85697-6_3)
+Our papers: 
+- [Enabling mixed-precision with the help of tools: A Nekbone case study](https://link.springer.com/chapter/10.1007/978-3-031-85697-6_3)
+- [Enabling mixed-precision in spectral element codes](https://www.sciencedirect.com/science/article/pii/S0167739X25002857)
 
 Cite:
 
-Chen, Y., Castro, P.d.O., Bientinesi, P., Iakymchuk, R. (2025). Enabling Mixed-Precision with the Help of Tools: A Nekbone Case Study. In: Wyrzykowski, R., Dongarra, J., Deelman, E., Karczewski, K. (eds) Parallel Processing and Applied Mathematics. PPAM 2024. Lecture Notes in Computer Science, vol 15579. Springer, Cham. https://doi.org/10.1007/978-3-031-85697-6_3
+- Chen, Y., Castro, P. D. O., Bientinesi, P., & Iakymchuk, R. (2024, September). Enabling mixed-precision with the help of tools: A Nekbone case study. In International Conference on Parallel Processing and Applied Mathematics (pp. 34-50). Cham: Springer Nature Switzerland.
+- Chen, Y., de Oliveira Castro, P., Bientinesi, P., Jansson, N., & Iakymchuk, R. (2025). Enabling mixed-precision in spectral element codes. Future Generation Computer Systems, 107990.
 
 BibTeX:
 ```plain
 @inproceedings{chen2024enabling,
-  title={Enabling mixed-precision with the help of tools: A Nekbone case study},
-  author={Chen, Yanxiang and Castro, Pablo de Oliveira and Bientinesi, Paolo and Iakymchuk, Roman},
-  booktitle={International Conference on Parallel Processing and Applied Mathematics},
-  pages={34--50},
-  year={2024},
-  organization={Springer}
+title = {Enabling mixed-precision with the help of tools: A Nekbone case study},
+author = {Yanxiang Chen and Pablo {de Oliveira Castro} and Paolo Bientinesi and Roman Iakymchuk}
+booktitle = {International Conference on Parallel Processing and Applied Mathematics},
+pages = {34--50},
+year = {2024},
+organization = {Springer},
+doi = {https://doi.org/10.1007/978-3-031-85697-6_3},
+url = {https://link.springer.com/chapter/10.1007/978-3-031-85697-6_3}
 }
+```
+
+```plain
+@article{CHEN2026107990,
+title = {Enabling mixed-precision in spectral element codes},
+author = {Yanxiang Chen and Pablo {de Oliveira Castro} and Paolo Bientinesi and Niclas Jansson and Roman Iakymchuk},
+journal = {Future Generation Computer Systems},
+volume = {174},
+pages = {107990},
+year = {2026},
+issn = {0167-739X},
+doi = {https://doi.org/10.1016/j.future.2025.107990},
+url = {https://www.sciencedirect.com/science/article/pii/S0167739X25002857}
 ```
